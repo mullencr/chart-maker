@@ -14,6 +14,7 @@
 
 Point get_point(std::ostream& os);
 
+/* This method was created by raodm to get me started on the project */
 int
 ChartMaker::run() {
     // Listen on a loop for commands
@@ -31,6 +32,7 @@ ChartMaker::run() {
     return 0;
 }
 
+/* The remainder of the code in this file was written by Charles Mullenix */
 int ChartMaker::process(std::ostream& os, const char c) {
     // Pass command to process()
     // process defers to many other methods via switch
